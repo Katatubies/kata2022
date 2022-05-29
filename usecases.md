@@ -2,16 +2,18 @@
 
 <br/>
 
-**UC1: Bla**
+**Actors**
 
 ```plantuml
 @startuml
 skinparam actorStyle awesome
-:User: --> (Use)
-"Main Admin" as Admin
-"Use the application" as (Use)
-Admin --> (Admin the application)
+:Non-Profit: --> (group with a platform integration offering)
+:Candidate: --> (Use)
+"consumer of non-profit offerings, delivered via the platform" as (Use)
+Administrators --> ( Management of the platform, registering Non-Profits)
 @enduml
 ```
 
-**UC2: Bla**
+**UC1: Register non-profits**
+
+**UC2: Register candidate**
