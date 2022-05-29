@@ -2,6 +2,8 @@
 
 functional
 
+It can be divided into two as User Req ve Non-profit req (mgoksever) 
+
 | Requirement# | Description                                                                                                                                                                                                                                                                                  |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | R1           | The login screen allows registered candidates or non-profits to login to the site to access all of the features that their account gives them access to. If they type in their username and password and click submit the users credentials are validated and if correct they are logged in. |
