@@ -1,6 +1,6 @@
 
 
-# Record architecture decisions
+# Architecture Decision Record
 
 Date: 2022-05-29
 ## Status
