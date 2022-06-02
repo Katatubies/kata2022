@@ -16,7 +16,8 @@ Positive:
 - Microservice architecture allows you to maximize deployment velocity and application reliability by helping you move at the speed of the market.
 - Microservices can also help you adapt more quickly to the changing market conditions.
 - It is possible to change or upgrade each service individually rather than upgrading in the entire application.
-  Negative:
+ 
+Negative:
 
 - Up-front costs may be higher with microservices.
 - Difficult to manage a large number of services.
