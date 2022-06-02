@@ -1,16 +1,16 @@
-We use microservice architecture
+# We use microservice architecture
 
 Date: 2022-06-02
 
-Status
+# Status
 Accepted
 
-Context
+# Context
 We need to choose best architecture approach
 
-Decision
+# Decision
 
-Consequences
+# Consequences
 Positive:
 
 - Microservices provide the ideal architecture for continuous delivery.
@@ -23,5 +23,5 @@ Negative:
 - Up-front costs may be higher with microservices.
 - Difficult to manage a large number of services.
 
-  Risks:
-  high volumes of data
+# Risks:
+- high volumes of data
