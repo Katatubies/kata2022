@@ -1,16 +1,16 @@
-We use RabbitMQ
+# We use RabbitMQ
 
 Date: 2022-06-02
 
-Status
+# Status
 Accepted
 
-Context
+# Context
 We need distributed event store and stream-processing platform
 
-Decision
+# Decision
 
-Consequences
+# Consequences
 Positive:
 
 - RabbitMQ is best for simple use cases.
@@ -21,5 +21,5 @@ Negative:
 
 - As Kafka is designed to handle high volumes of data, it’s overkill if you need to process only a small amount of messages per day (up to several thousand). Use traditional message queues such as RabbitMQ for relatively smaller data sets or as a dedicated task queue.
 
-Risks:
+# Risks:
 - high volumes of data
