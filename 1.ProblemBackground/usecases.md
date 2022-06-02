@@ -15,5 +15,6 @@ Administrators --> ( Management of the platform, registering Non-Profits)
 ```
 
 **UC1: Register non-profits**
-
+TODO
 **UC2: Register candidate**
+TODO
