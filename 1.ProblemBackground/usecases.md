@@ -1,8 +1,6 @@
-## Use Cases
+# Use Cases
 
-<br/>
-
-**Actors**
+## UC1
 
 ```plantuml
 @startuml
@@ -11,10 +9,22 @@ skinparam actorStyle awesome
 :Candidate: --> (Use)
 "consumer of non-profit offerings, delivered via the platform" as (Use)
 Administrators --> ( Management of the platform, registering Non-Profits)
+
+:Candidate: ->(Login)
+:Administrators: ->(Login)
+:Non-Profit: ->(Login)
+
+:Candidate: ->(Register)
+:Non-Profit: ->(Register)
+
+:Candidate Mentor: -> (uploads new candidate career roadmap)
+:Candidate Mentor: -> (Login)
+:Community Leader: -> (Login)
+:Citizen:
+
 @enduml
 ```
 
-**UC1: Register non-profits**
-TODO
-**UC2: Register candidate**
+# UC2
+
 TODO
