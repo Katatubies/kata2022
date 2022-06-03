@@ -11,7 +11,7 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 
 | Category | Requirement# | Actors |Description    |
 | ------------ | ------------| ------------| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| User Management    | R1         | Candidate,Non-profit         |The login screen allows registered candidates or non-profits to login to the site to access all of the features that their account gives them access to. If they type in their username and password and click submit the users credentials are validated and if correct they are logged in. |
+| User Management    | R1         | Candidate,Career Mentor, Non-profit         |The login screen allows registered candidates or non-profits to login to the site to access all of the features that their account gives them access to. If they type in their username and password and click submit the users credentials are validated and if correct they are logged in. |
 | User Management        | R2      | Candidate,Non-profit      | If the candidates or non-profits has forgotten their password they click "Forgot Password?" which takes them to a password recovery screen. If the user does not have an account then they click the register button.                                                                        |
 | User Management  | R3         | Non-profit   | 	New Non-Profit completes community profile and service capabilities assessment|
 | Meeting Management  | R4         | Non-profit, Administrator   | 		Introductory meeting is schedule within 1-2 weeks to discuss non profit service capabilities, responsibilities, & expectations...		|
@@ -36,12 +36,9 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 | Report Service  | R23   | Non-Profit             | The Platform must provide both operational reports (number of candidate matches / period, number of offerings / region, and so on) and analytical reports (projections of future desirable career paths, Offering gaps in a region based on demand, and so on) for use by Administrators     |
 | Mail Service  | R24   | System            | The Platform must inform candidates/nont-profits/administrators for each steps of offering (offering creation, opening, candidate applications etc.), user registration, non-profit registration etc.    |
 | Forum Service  | R25   | System            | System offers forum for all logged users and these forums can be seen publicly   |
-| Survey Service  | R26   | Administrator            | Administrator create/update/delete/list surveys including questions and answers with points and connect these surveys with offering type such as (Resume Writing Services, Interview Prep,    
-Free Business Attire,
-Apprenticeship Program Registration, etc.) and survey types conducted to non-profits, candidates, and citizens |
+| Survey Service  | R26   | Administrator            | Administrator create/update/delete/list surveys including questions and answers with points and connect these surveys with offering type such as (Resume Writing Services, Interview Prep,Free Business Attire, Apprenticeship Program Registration, etc.) and survey types conducted to non-profits, candidates, and citizens |
 | User Management  | R27   | Administrator            | The administrator selects career mentor for candidates   |
 | User Management  | R28   | Candidate, Career Mentor            | The career mentor and candidate can interact using messaging services  |
-
 | Career Management  | R29   | Administrator            | Administrator defines career roadmap for candidates  |
 | Career Management  | R30   | Administrator            | Administrator defines selected offering types and occurrences and points for each offering type   |
 | Career Management  | R31   | System            |  System calculates the career points and career level for candiates every time period that can be configured bu administrator |
