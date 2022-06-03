@@ -7,11 +7,23 @@ Our vision is to enhance inclusion and representation in the tech industry throu
 Our goal is to establish a sustainable and diverse talent pipeline that extends career equity to underrepresented demographics by providing access to competent training programs that lead to direct employment opportunities. 
 
 ## Business Problem and Requirements
+
+### User Types
+
+
+| User Type | Description    |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Candidate    | Candidate - consumer of non-profit offerings, delivered via the platform |
+| Career Mentor   | Mentor of candidates |
+| Non-profit    | Non-Profit with offering (“Non-Profit”) - group with a platform integration offering |
+| Community Leader    | Leader of non-profit |
+| Administrator    | Management of the platform, registering Non-Profits |
+| Citizen    | All users that is registered for events |
 ### Functional Requirements
 
 | Category | Requirement# | Actors |Description    |
 | ------------ | ------------| ------------| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| User Management    | R1         | Candidate,Career Mentor, Non-profit         |The login screen allows registered candidates or non-profits to login to the site to access all of the features that their account gives them access to. If they type in their username and password and click submit the users credentials are validated and if correct they are logged in. |
+| User Management    | R1         | Candidate,Career Mentor, Non-profit, Citizen         |The login screen allows registered candidates or non-profits to login to the site to access all of the features that their account gives them access to. If they type in their username and password and click submit the users credentials are validated and if correct they are logged in. |
 | User Management        | R2      | Candidate,Non-profit      | If the candidates or non-profits has forgotten their password they click "Forgot Password?" which takes them to a password recovery screen. If the user does not have an account then they click the register button.                                                                        |
 | User Management  | R3         | Non-profit   | 	New Non-Profit completes community profile and service capabilities assessment|
 | Meeting Management  | R4         | Non-profit, Administrator   | 		Introductory meeting is schedule within 1-2 weeks to discuss non profit service capabilities, responsibilities, & expectations...		|
@@ -43,6 +55,9 @@ Our goal is to establish a sustainable and diverse talent pipeline that extends 
 | Career Management  | R30   | Administrator            | Administrator defines selected offering types and occurrences and points for each offering type   |
 | Career Management  | R31   | System            |  System calculates the career points and career level for candiates every time period that can be configured bu administrator |
 | Career Management  | R32   | System            | Administrator defines career roadmap for candidates  |
+| Offering Management  | R33   | Citizen            | Citizen can select offering types that is interested, registers to occuring occurrences |
+| Offering Management  | R34   | System            | System sends event notifications for offerings occurence registrations or open offerings for candidates. |
+
 ### Non-functional Requirements
 
 | Requirement#   |Description    |
